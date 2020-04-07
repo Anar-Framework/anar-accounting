@@ -1,7 +1,7 @@
 package af.gov.anar.template.infrastructure.exception;
 
-import af.gov.anar.lang.infrastructure.exception.common.BaseCheckedException;
-import af.gov.anar.lang.infrastructure.exception.common.ExceptionUtils;
+import af.gov.anar.core.infrastructure.exception.common.BaseCheckedException;
+import af.gov.anar.core.infrastructure.exception.common.ExceptionUtils;
 import af.gov.anar.lib.logger.Logger;
 import af.gov.anar.template.infrastructure.constant.ApplicationGenericConstants;
 import af.gov.anar.template.infrastructure.util.LoggerFactory;

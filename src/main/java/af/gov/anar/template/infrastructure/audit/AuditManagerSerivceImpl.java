@@ -7,11 +7,10 @@ import java.net.UnknownHostException;
 import java.time.LocalDateTime;
 import java.time.ZoneOffset;
 
-import af.gov.anar.lang.infrastructure.exception.common.ExceptionUtils;
+import af.gov.anar.core.infrastructure.exception.common.ExceptionUtils;
 import af.gov.anar.lib.audit.builder.AuditRequestBuilder;
 import af.gov.anar.lib.audit.data.AuditRequestDto;
 import af.gov.anar.lib.audit.handler.AuditHandler;
-import af.gov.anar.lib.audit.handler.AuditHandlerImpl;
 import af.gov.anar.lib.logger.Logger;
 import af.gov.anar.template.infrastructure.service.BaseService;
 import af.gov.anar.template.infrastructure.constant.ApplicationGenericConstants;

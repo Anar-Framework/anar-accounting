@@ -1,8 +1,7 @@
 package af.gov.anar.template;
 
-import af.gov.anar.lang.applicationname.EnableApplicationName;
+import af.gov.anar.core.applicationname.EnableApplicationName;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.ImportAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.ComponentScan;
